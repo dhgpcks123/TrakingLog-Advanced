@@ -1,11 +1,11 @@
-package hello.trakinglogadvanced.app.V0;
+package hello.trakinglogadvanced.app.v0;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
 @Repository
 @RequiredArgsConstructor
-public class OrderRepository {
+public class OrderRepositoryV0 {
 
     public void save(String itemId){
         //저장 로직

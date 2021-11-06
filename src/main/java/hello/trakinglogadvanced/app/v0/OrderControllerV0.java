@@ -1,4 +1,4 @@
-package hello.trakinglogadvanced.app.V0;
+package hello.trakinglogadvanced.app.v0;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +11,7 @@ public class OrderControllerV0 {
 
     private final OrderServiceV0 orderService;
 
-    @GetMapping("/V0/request")
+    @GetMapping("/v0/request")
     public String request(String itemId){
         /* URL 요청 : http://localhost:8080/V0/request?itemId=hello
         * 여기서 V0/request 로 @GetMapping 했지만,

@@ -1,4 +1,4 @@
-package hello.trakinglogadvanced.app.V0;
+package hello.trakinglogadvanced.app.v0;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class OrderServiceV0 {
 
-    private final OrderRepository orderRepository;
+    private final OrderRepositoryV0 orderRepository;
 
     public void orderItem(String itemId){
         orderRepository.save(itemId);
